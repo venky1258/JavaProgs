@@ -36,7 +36,7 @@ class td
             {
                System.out.print(" "+c[i][j]);
             }
-            System.out.println();
+            System.out.println(" ");
         }
        
     }
