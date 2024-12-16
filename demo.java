@@ -1,25 +1,18 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class demo {
 public static void main(String[] args) {
-   int ar[]={5,1,8,2,9};
-   int i,j;
-   int t;
-   for(i=0;i<ar.length-1;i++)
-   {
-    for(j=0;j<ar.length-i-1;j++)
-    {
-        if(ar[j]>ar[j+1])
-        {
-            t=ar[j];
-            ar[j]=ar[j+1];
-            ar[j+1]=t;
-        }
-    }
-   }
-   //System.out.println(Arrays.toString(ar));
-   for(i=0;i<ar.length;i++)
-    System.out.println(ar[i]);
-}    
-}
+    Integer a[]={2,5,8};
+    Integer b[]={5,8,2};
+    Arrays.sort(a);
+    Arrays.sort(b);
+    System.out.println(Arrays.equals(a,b));
+ 
+
+    List<Integer> l1=Arrays.asList(a);
+    System.out.println(l1);
+
+}}
