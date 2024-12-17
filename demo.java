@@ -10,8 +10,6 @@ public static void main(String[] args) {
     Arrays.sort(a);
     Arrays.sort(b);
     System.out.println(Arrays.equals(a,b));
- 
-
     List<Integer> l1=Arrays.asList(a);
     System.out.println(l1);
 

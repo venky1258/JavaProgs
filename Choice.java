@@ -24,6 +24,6 @@ public class Choice {
             }
         }
         if(f==0)
-        System.out.println("ele not found");
+        System.out.println("Yes element is not found");
     }
 }
