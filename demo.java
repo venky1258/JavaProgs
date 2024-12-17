@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class demo {
 public static void main(String[] args) {
-<<<<<<< HEAD
    int m[]=new int[6];
    int i;
    int sum=0;
@@ -27,7 +26,6 @@ public static void main(String[] args) {
         max=m[i];
      }
      System.out.println("Max marks "+max);
-=======
     Integer a[]={2,5,8};
     Integer b[]={5,8,2};
     Arrays.sort(a);
@@ -36,5 +34,4 @@ public static void main(String[] args) {
     List<Integer> l1=Arrays.asList(a);
     System.out.println(l1);
 
->>>>>>> db0f183644d5b2f6ccbf7859559be4715744c696
 }}
