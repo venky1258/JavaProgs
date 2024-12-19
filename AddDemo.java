@@ -8,7 +8,7 @@ public static void main(String[] args) {
     a=scan.nextInt();
     System.out.println("enter b");
     b=scan.nextInt();
-    c=a+b;
+    c=a*b;
     System.out.println(c);
     scan.close();
 }
